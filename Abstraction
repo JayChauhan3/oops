@@ -1,1 +1,12 @@
+abstract class videoeditor{
+   abstract void run();
+ }
 
+ class Honda4 extends videoeditor{
+ void run(){System.out.println("DON'T CLOSE WINDOW ");}
+
+ public static void main(String args[]){
+  videoeditor obj = new Honda4();
+  obj.run();
+ }
+ }
